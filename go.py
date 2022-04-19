@@ -153,4 +153,6 @@ print('Remaining cost basis')
 print(cost_basis_detail(cost_basis))
 print('\n')
 
-print(tabulate(years.values(), headers="keys", tablefmt="fancy_grid"))
+year = str(datetime.now().year - 1)
+total = years[year]['Total']
+print(f'Total for {year}: ${total:0.2f}')
