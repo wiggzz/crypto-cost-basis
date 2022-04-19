@@ -8,13 +8,13 @@
 
 Create a CSV with all your transactions (good luck). It should have columns
 
-Date,Amount,Currency,Description,USD Amount,Type,Source
+    Date,Amount,Currency,Description,USD Amount,Type,Source
 
 The date should be in `mm/dd/yyyy HH:MM:SS` format.
 
 Then run
 
-pipenv run python go.py -f <filename>
+    pipenv run python go.py -f <filename>
 
 To calculate the cost basis of your transactions.
 
